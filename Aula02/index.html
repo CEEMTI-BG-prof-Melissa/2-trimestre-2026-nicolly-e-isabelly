@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Controle de Formulários </title>
+    </head>
+    <body>
+        <form action="index.html" method="get">
+            <h1> Preferências </h1>
+            <p> Nome: </p>
+            <input type="text" id="nome" name="nome">
+            
+            <p> Qual turno você prefere estudar? </p>
+            <input type="radio" id="turno" name="turno">
+            <label for="turno"> Manhã</label> 
+            <br>
+            <input type="radio" id="turno" name="turno"> 
+            <label for="turno"> Tarde</label> 
+            <br>
+            <input type="radio" id="turno" name="turno"> 
+            <label for="turno"> Noite</label>
+            <br>
+            
+            <p> Quais áreas da tecnologia você tem interesse? </p>
+            <input type="checkbox" id="programacao" name="programacao"> 
+            <label for="programacao"> Programação </label>
+            <br>
+            <input type="checkbox" id="design" name="design"> 
+            <label for="design"> Design </label>
+            <br>
+            <input type="checkbox" id="bd" name="bd">
+            <label for="bd"> Banco de Dados </label>
+            <br>
+            <input type="checkbox" id="redes" name="redes"> 
+            <label for="redes"> Redes </label>
+            <br>
+            
+            <label for="cor"> Qual a sua cor favorita? </label>
+            <input type="color">
+            <br>
+            
+            <label for="satisfacao"> Qual o seu nível de satisfação? </label>
+            <input type="range">
+            <br>
+            
+            <label for="hora"> Qual o seu horário preferido? </label>
+            <input type="time">
+            <br>
+            
+            <label for="arq"> Envie um arquivo </label>
+            <input type="file">
+            <br>
+            
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Limpar">
+        </form>
+    </body>
+</html> 

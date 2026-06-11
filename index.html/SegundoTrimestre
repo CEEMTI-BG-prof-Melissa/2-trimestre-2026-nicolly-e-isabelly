@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Formulário HTML</title> <!--acerto-->
+        <meta charset="UTF-8">
+    </head> <!--acerto-->
+    
+    <body>
+        <h1>Cadastro de Usuário</h1> <!--acerto-->
+        <form action="cadastro.php" method="get"> <!--acerto-->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"> <!--acerto-->
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"> <!--acerto-->
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha"> 
+            <br>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade">
+            <br>
+            <label for="nascimento">Data de Nascimento:</label> <!--erro-->
+            <input type="date" id="nascimento" name="nascimento"> 
+            <br>
+            <p>Turno:</p>
+            <input type="radio" name="turno" id="manha"> <label for="manha">Manhã</label>
+            <input type="radio" name="turno" id="tarde"> <label for="tarde">Tarde</label> <!--acerto--> <!--acerto-->
+            <input type="radio" name="turno" id="noite"> <label for="noite">Noite</label>
+            <br>
+            <p>Áreas de Interesse:</p>
+            <input type="checkbox" name="area" id="programacao"> <label for="programacao">Programação</label>
+            <input type="checkbox" name="area" id="design"> <label for="design">Design</label>
+            <input type="checkbox" name="area" id="redes"> <label for="redes">Redes</label> <!--acerto-->
+            <br>
+            <input type="submit" value="Enviar"> <!--erro-->
+            <input type="reset" value="Limpar"> <!--erro-->
+        </form>
+    </body>
+</html>
