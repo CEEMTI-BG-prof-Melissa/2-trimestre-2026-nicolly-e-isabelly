@@ -6,9 +6,9 @@
     </head>
     <body>
         <?php
-            $nome="Nicolly"
-            $idade="17"
-            echo "Meu nome é" .$nome ."e tenho" .$idade ."anos";
+            $nome="Nicolly";
+            $idade="17";
+            echo "Meu nome é " .$nome ." e tenho " .$idade ." anos";
         ?>
     </body>
 </html>        
